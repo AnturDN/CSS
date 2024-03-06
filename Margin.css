@@ -1,0 +1,10 @@
+.antur{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(34, 34, 127);
+    border:5px solid red;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    /* margin: 50px 70px 80px 90px */
+}

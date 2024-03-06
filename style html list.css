@@ -1,0 +1,31 @@
+.course-list{
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    
+}
+.course-list ul{
+    list-style: none;
+    /*list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(image/check.png);
+
+    /*list-style: url(image/check.png) inside circle; /*list style in one line */
+    
+
+}
+.course-list li{
+    font-size: 1.2rem;
+    color: white;
+}
+.course-list li::before{
+    content: '\f058'; /* unicode value of icon */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 2rem;
+    color: rgb(115, 234, 234);
+
+}

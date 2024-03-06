@@ -1,0 +1,12 @@
+.p1{
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgb(154, 113, 113);
+    border-radius: 10px;
+    /* border: 5px groove red; (We can write all this in one line like this) */
+}
+#p2{
+    border-width: 5px;
+    border-style: dotted;
+    border-color:blue;
+}

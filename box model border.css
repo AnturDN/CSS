@@ -1,0 +1,7 @@
+h1,h2,h3{
+    border-right: 5px gray solid;
+    border-left: 5px red solid;
+    border-top: 5px greenyellow solid;
+    border-bottom: 5px blue solid;
+    width: 250px;
+}

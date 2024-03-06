@@ -1,0 +1,10 @@
+h1{
+    text-shadow: 5px 5px 5px gray; /* 1st and 2nd values are for horizontal and verticle and the 3rd value is for blur */
+
+}
+div{
+    width: 200px;
+    background-color: burlywood;
+    border: 2px solid green;
+    box-shadow: 5px 5px 5px teal;
+}

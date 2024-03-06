@@ -1,0 +1,33 @@
+img{
+    max-width: 200px;
+    height: 200px;
+    
+    display: block;
+    margin: 0 auto;
+    margin: 100px;
+    border-radius: 50%;
+
+    
+}
+
+img:hover{
+    animation-name: img-anim;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; /* frezz the image after hovering */
+}
+
+@keyframes img-anim {  /* we can use from-to instead of 0%-100% */
+    0%{
+        max-width: 200px;
+        height: 200px;
+        border: 5px solid rgb(0, 0, 0);
+    }
+    50%{
+        border-color: rgb(43, 226, 46);
+    }
+    100%{
+        max-width: 300px;
+        height: 300px;
+        border: 5px solid rgb(203, 13, 13);
+    }
+}

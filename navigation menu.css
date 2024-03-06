@@ -1,0 +1,27 @@
+#nav-menu{
+    width: 500px;
+    height: 80px;
+    background-color: rgb(64, 101, 8);
+    margin: 0 auto; /* navigation menu will go to the center */
+}
+#nav-menu ul{
+
+}
+#nav-menu ul li{
+
+    list-style-type: none;
+    margin:  20px;
+    float: left;
+}
+#nav-menu ul li a{
+
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+#nav-menu ul li a:hover{
+
+    text-decoration: underline;
+
+}

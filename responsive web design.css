@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+/* @media screen and (max-width: 700px) {
+    body{
+        background-color: brown;
+    }
+    h1{
+        color: white;
+    }
+    h2{
+        display: none; /* it will hide the h2 
+    }
+}
+/*@media screen and (max-width: 600px) {
+    body{
+        background-color: aquamarine;
+    }
+    h1{
+        color: brown;
+    }
+} */

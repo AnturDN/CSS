@@ -1,0 +1,12 @@
+.linear-gradient{
+    height: 400px;
+    width: 100%;
+    /*background-color: green;*/
+    background-image: linear-gradient(to right, red, green,yellow); /* linear gradient */
+}
+.circle-gradient{
+    height: 400px;
+    width: 100%;
+    background-image: radial-gradient(circle, red, green);
+
+}

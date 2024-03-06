@@ -1,0 +1,18 @@
+.social-media{
+    background-color: gray;
+    padding: 50px 20px; /* first value is for top-bottom and the second value is for left-right */
+    text-align: center;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    
+    box-shadow: 5px 5px 5px;
+}
+#btn1:hover{
+    box-shadow: 5px 5px 5px rgb(8, 60, 80);
+}

@@ -1,0 +1,33 @@
+/*.....Pseudo Class.....*/
+a:hover{
+    color: green;
+}
+input{
+    padding: 10px;
+    font-size: 1rem;
+    width: 150px;
+}
+/*input:focus{  /* this will work only if i clik on the input*/
+    background-color: gray;
+}
+
+input:hover{
+    background-color: greenyellow;
+}
+
+table,tr,td{
+    border: 1px solid black;
+}
+tr:nth-child(odd){
+    background-color: brown;
+}
+
+/*.....Pseudo Element...*/
+
+p:hover{
+    color: brown;
+}
+p::first-letter{   /* pseuso element....after, first-line and many more */
+    color: coral;
+    font-size: 2.5rem;
+}

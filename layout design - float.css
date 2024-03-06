@@ -1,0 +1,14 @@
+#section1{
+    float: left;
+    background-color: green;
+}
+#section2{
+    float: right;
+    background-color: orange;
+}
+#section3{
+    background-color: yellow;
+}
+#clear-div{
+    clear: both; /* using this section3 will go to the bottom of section1 and section2 */
+}

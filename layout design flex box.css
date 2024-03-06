@@ -1,0 +1,17 @@
+.flex{
+    background-color: lightcoral;
+    display: flex;
+    /*flex-wrap: wrap;
+    flex-direction: column;*/
+    flex-flow: wrap row; /* we can write this in one line */
+    justify-content: center; /* item alignment and also use for spacing */
+    height: 300px;
+    align-items: center;
+}  
+.flex > div{
+    width: 100px;
+    background-color: blueviolet;
+    font-size: 35px;
+    margin: 10px;
+    padding: 20px;
+}

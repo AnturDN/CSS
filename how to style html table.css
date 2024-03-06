@@ -1,0 +1,26 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse; /* it will turn double border into single border */
+    width: 100%;
+
+}
+th,td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: darkcyan;
+    color:white;
+    height: 30px;
+    /*vertical-align: top; */
+}
+tr:nth-child(even){  /* changed the color of even row */
+    background-color: blueviolet;
+}
+tr:nth-child(odd){  /* changed the color of even row */
+    background-color: darkkhaki;
+}
+tr:hover{
+    background-color: tomato;
+}

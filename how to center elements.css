@@ -1,0 +1,25 @@
+.main{
+    width: 80%;
+    margin: 0 auto;
+    /*text-align: center; */
+    background-color: plum;
+    height: 400px;
+    
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/  /*we can center the disc using this properties. */
+    position: relative;
+}
+h1{
+    width: 200px; /* if we give h1 width then we have to set margin 0 auto otherwise it will not go to center */
+    margin: 0 auto;
+}
+.disc{
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* right and bottom value */ 
+}

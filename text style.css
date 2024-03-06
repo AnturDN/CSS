@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+.decoration{
+    text-indent: 20px;
+    text-align:justify;
+    word-spacing: 10px;
+
+}
+.decoration1{
+    text-transform:capitalize;
+}
+p1{
+    direction:rtl;
+    font-weight: bolder;
+    text-decoration: underline;
+    unicode-bidi: bidi-override;
+}

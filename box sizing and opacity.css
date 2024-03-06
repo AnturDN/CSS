@@ -1,0 +1,21 @@
+.div1{
+    background-color: brown;
+    height: 300px;
+    width: 50%;
+   /* padding: 10px;
+    box-sizing: border-box;
+    border: 5px solid yellow;*/
+    float: left;
+}
+.div2{
+    background-color: green;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+h3{
+    opacity: 0.2;
+}
+h3:hover{
+    opacity: 1;
+}

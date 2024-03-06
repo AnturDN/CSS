@@ -1,0 +1,13 @@
+.antur{
+    width:400px;
+    height: 400px;
+    background-color: black;
+    padding-top: 20px; /* padding=প্রসারিত করা */
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right:50px ;
+    /* padding: 50px 20px 80px 90px; (we can write it in one line like this) */
+}
+p{
+    color: white;
+}

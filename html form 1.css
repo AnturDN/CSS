@@ -1,0 +1,29 @@
+input[type=text]{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 3px solid salmon;
+    border-radius: 5px;
+    background-color: darkcyan;
+
+    /*border: none;
+    border-bottom: 3px solid salmon; */
+
+}
+#search{
+    background-image: url(image/search.png);
+    background-repeat: no-repeat;
+    background-position: 8px 12px; /*first value is for x axis and the second value is for y axis */
+    background-color: white;
+    font-size: 1rem;
+    width: 150px;
+    transition: width 0.3s, ease-in-out;
+
+    padding: 15px 40px;
+}
+#search:focus{
+    background-color: aqua;
+    width: 100%;
+}
